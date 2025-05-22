@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".description").innerText = product.description;
 
     document.querySelector(".add-to-cart").addEventListener("click", function () {
-        let user = JSON.parse(localStorage.getItem("user"));
+        let user = JSON.parse(localStorage.getItem("users"));
         if (!user) {
             alert("Please log in first!");
-            window.location.href = "login.html";
+            window.open("./login.html")
             return;
         }
 
