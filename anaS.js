@@ -44,5 +44,5 @@ function openss() {
 }
 
 function cart() {
-    window.open("./cart.html");
+    window.open("./cart/cart.html");
 }

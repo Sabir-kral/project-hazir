@@ -26,5 +26,5 @@ function openss() {
     window.open("./user.html")
 }
 function cart() {
-    window.open("./cart.html")
+    window.open("./cart/cart.html");
 }
